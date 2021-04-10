@@ -1,0 +1,5 @@
+import matplotlib.pyplot as plt
+students =[40,55,100,80,25]
+grade =['a','b','c','d','e']
+plt.pie(students, labels= grade)
+plt.show()
